@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@400;700&family=Outfit:wght@300;400;600&family=Poppins:wght@300;400;600&family=Roboto:wght@900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: "Poppins";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+}
+.head {
+  text-align: center;
+  width: 375px;
+}
+.one {
+  font-size: 29px;
+  font-weight: 100;
+  color: hsl(229, 6%, 66%);
+  margin-top: 3em;
+}
+.two {
+  font-size: 29px;
+  font-weight: bold;
+  color: hsl(234, 12%, 34%);
+}
+.three {
+  margin: 1em 0 4em 0;
+  color: hsl(229, 6%, 66%);
+}
+
+.main {
+  width: 375px;
+}
+
+.first {
+  background: white;
+  padding: 2em;
+  border-radius: 0.5em;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2em;
+  position: relative;
+}
+.first::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background: hsl(180, 62%, 55%);
+  height: 5px;
+  top: 0;
+  left: 0;
+  border-radius: 0.5em 0.5em 0 0;
+}
+.first p {
+  color: hsl(229, 6%, 66%);
+  margin-bottom: 2em;
+  font-size: 15px;
+}
+.first img {
+  margin-left: 15em;
+}
+.sec {
+  background: white;
+  padding: 2em;
+  border-radius: 0.5em;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2em;
+  position: relative;
+}
+.sec::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background: hsl(0, 78%, 62%);
+  height: 5px;
+  top: 0;
+  left: 0;
+  border-radius: 0.5em 0.5em 0 0;
+}
+.sec p {
+  color: hsl(229, 6%, 66%);
+  margin-bottom: 2em;
+  font-size: 15px;
+}
+.sec img {
+  margin-left: 15em;
+}
+.third {
+  background: white;
+  padding: 2em;
+  border-radius: 0.5em;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2em;
+  position: relative;
+}
+.third::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background: hsl(34, 97%, 64%);
+  height: 5px;
+  top: 0;
+  left: 0;
+  border-radius: 0.5em 0.5em 0 0;
+}
+.third p {
+  color: hsl(229, 6%, 66%);
+  margin-bottom: 2em;
+  font-size: 15px;
+}
+.third img {
+  margin-left: 15em;
+}
+.fourth {
+  background: white;
+  padding: 2em;
+  border-radius: 0.5em;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2em;
+  position: relative;
+}
+.fourth::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background: hsl(212, 86%, 64%);
+  height: 5px;
+  top: 0;
+  left: 0;
+  border-radius: 0.5em 0.5em 0 0;
+}
+.fourth p {
+  color: hsl(229, 6%, 66%);
+  margin-bottom: 2em;
+  font-size: 15px;
+}
+.fourth img {
+  margin-left: 15em;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 720px) {
+  .main {
+    display: flex;
+    width: 1080px;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+  }
+}
